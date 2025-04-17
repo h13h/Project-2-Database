@@ -1,0 +1,15 @@
+<%- include('layout') %>
+
+<main style="padding: 2rem;">
+  <h2>Dashboard</h2>
+
+  <div class="dashboard-cards" style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+    <div class="card" style="background: #e3f2fd; padding: 1rem; border-radius: 8px;">Total Applications: <strong><%= total %></strong></div>
+    <div class="card" style="background: #fff3e0; padding: 1rem; border-radius: 8px;">Applied: <strong><%= applied %></strong></div>
+    <div class="card" style="background: #e8f5e9; padding: 1rem; border-radius: 8px;">Interviews: <strong><%= interviews %></strong></div>
+    <div class="card" style="background: #ede7f6; padding: 1rem; border-radius: 8px;">Offers: <strong><%= offers %></strong></div>
+    <div class="card" style="background: #ffebee; padding: 1rem; border-radius: 8px;">Rejections: <strong><%= rejections %></strong></div>
+  </div>
+
+  <a href="/jobs" style="display: inline-block; margin-top: 2rem; color: blue;">→ View All Jobs</a>
+</main>

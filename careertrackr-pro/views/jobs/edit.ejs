@@ -1,0 +1,39 @@
+<%- include('../layout') %>
+
+<main style="padding: 2rem;">
+  <h2>Edit Job</h2>
+
+  <form action="/jobs/<%= job._id %>" method="POST" style="display: flex; flex-direction: column; gap: 1rem; max-width: 500px;">
+    <div>
+      <label>Company:</label><br>
+      <input type="text" name="company" value="<%= job.company %>" required>
+    </div>
+
+    <div>
+      <label>Position:</label><br>
+      <input type="text" name="position" value="<%= job.position %>" required>
+    </div>
+
+    <div>
+      <label>Status:</label><br>
+      <select name="status">
+        <option <%= job.status === 'Applied' ? 'selected' : '' %>>Applied</option>
+        <option <%= job.status === 'Interview' ? 'selected' : '' %>>Interview</option>
+        <option <%= job.status === 'Offer' ? 'selected' : '' %>>Offer</option>
+        <option <%= job.status === 'Rejected' ? 'selected' : '' %>>Rejected</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Applied Date:</label><br>
+      <input type="date" name="appliedDate" value="<%= job.appliedDate ? job.appliedDate.toISOString().split('T')[0] : '' %>" required>
+    </div>
+
+    <div>
+      <label>Notes:</label><br>
+      <textarea name="notes" rows="4"><%= job.notes %></textarea>
+    </div>
+
+    <button type="submit">Update Job</button>
+  </form>
+</main>

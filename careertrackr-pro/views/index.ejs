@@ -1,0 +1,48 @@
+<%- include('layout') %>
+
+<main style="padding: 2rem;">
+  <h2>Job Listings</h2>
+
+  <!-- Filter/Search Form -->
+  <form method="get" action="/jobs" style="margin-bottom: 1rem;">
+    <input type="text" name="search" placeholder="Search by company or position" value="<%= search || '' %>" />
+    <select name="status">
+      <option value="">All</option>
+      <option <%= status === 'Applied' ? 'selected' : '' %>>Applied</option>
+      <option <%= status === 'Interview' ? 'selected' : '' %>>Interview</option>
+      <option <%= status === 'Offer' ? 'selected' : '' %>>Offer</option>
+      <option <%= status === 'Rejected' ? 'selected' : '' %>>Rejected</option>
+    </select>
+    <select name="sort">
+      <option value="newest" <%= sort === 'newest' ? 'selected' : '' %>>Newest</option>
+      <option value="oldest" <%= sort === 'oldest' ? 'selected' : '' %>>Oldest</option>
+    </select>
+    <button type="submit">Filter</button>
+  </form>
+
+  <!-- Job Table -->
+  <table style="width: 100%; border-collapse: collapse;">
+    <tr>
+      <th>Company</th>
+      <th>Position</th>
+      <th>Status</th>
+      <th>Applied Date</th>
+      <th>Actions</th>
+    </tr>
+    <% jobs.forEach(job => { %>
+      <tr>
+        <td><%= job.company %></td>
+        <td><%= job.position %></td>
+        <td><%= job.status %></td>
+        <td><%= job.appliedDate ? job.appliedDate.toDateString() : 'N/A' %></td>
+        <td>
+          <a href="/jobs/<%= job._id %>">View</a> |
+          <a href="/jobs/<%= job._id %>/edit">Edit</a> |
+          <form action="/jobs/<%= job._id %>/delete" method="POST" style="display: inline;">
+            <button type="submit" onclick="return confirm('Delete this job?')">Delete</button>
+          </form>
+        </td>
+      </tr>
+    <% }) %>
+  </table>
+</main>

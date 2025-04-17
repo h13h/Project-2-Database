@@ -1,0 +1,171 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 4rem;
+  }
+  
+  /* Header */
+  header {
+    background: #121212;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  header h1 a {
+    color: #9c27b0;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  header nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 500;
+  }
+  
+  header nav a:hover {
+    color: #9c27b0;
+  }
+  
+  /* Layout containers */
+  main {
+    padding: 2rem;
+  }
+  
+  /* Dashboard cards */
+  .dashboard-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+  }
+  
+  .dashboard-cards .card {
+    flex: 1 1 180px;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Color cards */
+  .card:nth-child(1) { background: #e3f2fd; }
+  .card:nth-child(2) { background: #fff3e0; }
+  .card:nth-child(3) { background: #e8f5e9; }
+  .card:nth-child(4) { background: #ede7f6; }
+  .card:nth-child(5) { background: #ffebee; }
+  
+  /* Forms */
+  form input, form select, form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  form button {
+    padding: 0.7rem 1.2rem;
+    background-color: #9c27b0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  form button:hover {
+    background-color: #7b1fa2;
+  }
+  
+  /* Job table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #121212;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .dashboard-cards {
+      flex-direction: column;
+    }
+  
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  
+    th {
+      display: none;
+    }
+  
+    td {
+      padding: 1rem;
+      border: none;
+      position: relative;
+    }
+  
+    td:before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
