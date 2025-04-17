@@ -13,17 +13,24 @@ mongoose.connect('mongodb://127.0.0.1:27017/careertrackr', {
 });
 
 const insertJobs = async () => {
-  const jobs = [];
+  const jobs = [
 
-  for (let i = 1; i <= 20; i++) {
-    jobs.push({
-      company: `Kinjal Tech ${i}`,
-      position: `Frontend Dev ${i}`,
-      status: ['Applied', 'Interview', 'Offer', 'Rejected'][Math.floor(Math.random() * 4)],
-      appliedDate: new Date(),
-      notes: `Added by Kinjal`
-    });
-  }
+  { company: "Myant", position: "IoT Software Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Ecobee", position: "Python Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "League", position: "Software Developer in Test", status: "Interview", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Borrowell", position: "Junior UI Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Top Hat", position: "Platform Engineer", status: "Offer", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Geotab", position: "Software Support Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Xanadu", position: "Quantum Software Intern", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Lightspeed HQ", position: "Frontend Angular Developer", status: "Interview", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Zensurance", position: "Infrastructure Engineer", status: "Rejected", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Fiix Software", position: "Software Integration Tester", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "MindBeacon", position: "React JS Intern", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "WealthBar", position: "Node/Express Developer", status: "Offer", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Drop Technologies", position: "AI Assistant Engineer", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "Ada Support", position: "Machine Learning Intern", status: "Interview", appliedDate: new Date(), notes: "Added by Kinjal" },
+    { company: "ApplyBoard", position: "Technical Support Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Kinjal" }
+];
 
   try {
     await Job.insertMany(jobs);

@@ -12,17 +12,25 @@ mongoose.connect('mongodb://127.0.0.1:27017/careertrackr', {
 });
 
 const insertJobs = async () => {
-  const jobs = [];
-
-  for (let i = 1; i <= 20; i++) {
-    jobs.push({
-      company: `Hitesh Tech. ${i}`,
-      position: `Fullstack Dev ${i}`,
-      status: ['Applied', 'Interview', 'Offer', 'Rejected'][Math.floor(Math.random() * 4)],
-      appliedDate: new Date(),
-      notes: `Added by Hitesh`
-    });
-  }
+  const jobs = [
+    { company: "Wealthsimple", position: "Junior DevOps Engineer", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "PointClickCare", position: "React Frontend Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Ceridian Canada", position: "Software QA Analyst", status: "Interview", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Nuvei", position: "Full Stack Engineer", status: "Offer", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Thomson Reuters", position: "Node.js Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Think Research", position: "Junior Software Tester", status: "Rejected", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Wattpad", position: "Junior Frontend Developer", status: "Interview", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Flipp", position: "Data Integration Engineer", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Klick Health", position: "CMS Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "SkipTheDishes", position: "React Native Developer", status: "Offer", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "FreshBooks", position: "Junior Mobile Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Neo Financial", position: "API Developer", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "1Password", position: "Cloud Engineer Intern", status: "Interview", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Lynk Global", position: "DevSecOps Analyst", status: "Applied", appliedDate: new Date(), notes: "Added by Hitesh" },
+    { company: "Bench Accounting", position: "Junior Backend Developer", status: "Rejected", appliedDate: new Date(), notes: "Added by Hitesh" },
+  
+  ];
+  
 
   try {
     await Job.insertMany(jobs);
