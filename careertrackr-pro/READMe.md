@@ -26,6 +26,12 @@ CareerTrackr is a full-stack web application designed to help users manage and t
 
 ---
 
+GitHub Repo link:-
+https://github.com/h13h/Project-2-Database
+
+
+---
+
 ## 👥 Team Members & Contributions
 
 ### 🔸 Harshal Patel

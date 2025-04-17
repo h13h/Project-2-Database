@@ -1,0 +1,68 @@
+_id,company,position,status,appliedDate,notes,createdAt,__v
+67fec64e5a8f57098b8c8ce9,ScotiaBank of Canada,Data Analyst,Applied,2025-04-09T00:00:00.000Z,Thanks Hitesh for applying!,2025-04-09T20:49:18.731Z,0
+67fecd20c8c8310addb4c9de,Bank of Montreal,Jr. Software Developer,Interview,2025-04-11T00:00:00.000Z,Congrats! on your next step.,2025-04-11T20:49:18.731Z,0
+68009f020b1d03edc03bd286,ManuLife Insuarance Ltd.,Fullstack Dev 18,Applied,2025-04-17T06:26:10.240Z,Added by Harshal,2025-04-17T06:26:10.248Z,0
+6800c645b9434e21ac5c2780,RBC Royal Bank,Full Stack Developer,Applied,2025-02-17T09:13:41.910Z,Added by Harshal,2025-02-17T09:13:41.915Z,0
+6800c645b9434e21ac5c2781,TD Bank Group,QA Analyst,Interview,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.915Z,0
+6800c645b9434e21ac5c2782,Bell Canada,React Developer,Applied,2025-04-17T09:13:41.910Z,Added by Kinjal,2025-04-17T09:13:41.915Z,0
+6800c645b9434e21ac5c2783,Scotiabank,Cloud Engineer,Applied,2025-04-17T09:13:41.910Z,Added by Kinjal,2025-04-17T09:13:41.915Z,0
+6800c645b9434e21ac5c2784,Rogers Communications,Data Analyst,Offer,2025-02-28T00:00:00.000Z,Added by Harshal,2025-02-28T09:13:41.915Z,0
+6800c645b9434e21ac5c2785,Manulife,Business Analyst,Rejected,2025-02-07T09:13:41.910Z,Added by Hitesh,2025-02-07T09:13:41.915Z,0
+6800c645b9434e21ac5c2786,Telus,Software Engineer Intern,Interview,2025-03-11T09:13:41.910Z,Added by Hitesh,2025-03-11T09:13:41.915Z,0
+6800c645b9434e21ac5c2787,Shopify,Backend Developer,Applied,2025-04-17T09:13:41.910Z,Added by Hitesh,2025-02-19T09:13:41.916Z,0
+6800c645b9434e21ac5c2788,Deloitte Canada,Cyber Security Consultant,Applied,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2789,KPMG Canada,DevOps Engineer,Interview,2025-04-13T09:13:41.910Z,Added by Hitesh,2025-04-13T09:13:41.916Z,0
+6800c645b9434e21ac5c278a,EY Canada,Junior Software Developer,Applied,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c278b,PwC Canada,AI Research Assistant,Applied,2025-04-02T09:13:41.910Z,Added by Hitesh,2025-04-02T09:13:41.916Z,0
+6800c645b9434e21ac5c278c,CGI Group,React Native Developer,Applied,2025-04-14T09:13:41.910Z,Added by Kinjal,2025-04-14T09:13:41.916Z,0
+6800c645b9434e21ac5c278d,Amazon Canada,Software Development Engineer,Offer,2025-02-14T00:00:00.000Z,Added by Hitesh,2025-02-14T09:13:41.916Z,0
+6800c645b9434e21ac5c278e,Google Canada,Cloud Infrastructure Intern,Rejected,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c278f,Microsoft Canada,Technical Program Manager,Applied,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2790,Tesla Toronto,Automation Engineer,Applied,2025-01-17T09:13:41.910Z,Added by Kinjal,2025-01-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2791,Accenture Canada,IT Analyst,Interview,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2792,Ubisoft,Game Developer Intern,Applied,2025-04-07T09:13:41.910Z,Added by Kinjal,2025-04-07T09:13:41.916Z,0
+6800c645b9434e21ac5c2793,Loblaw Digital,Junior UI/UX Designer,Applied,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2794,SAP Canada,Product Owner,Interview,2025-01-07T09:13:41.910Z,Added by Kinjal,2025-01-07T09:13:41.916Z,0
+6800c645b9434e21ac5c2795,Sun Life Financial,Web Developer,Applied,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2796,BlackBerry,Embedded Software Engineer,Applied,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2797,OpenText,IT Support Specialist,Rejected,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2798,CIBC,Data Engineer,Applied,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c2799,BMO Financial Group,System Analyst,Interview,2025-04-17T09:13:41.910Z,Added by Harshal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c279a,Magna International,Automation Tester,Applied,2025-04-03T00:00:00.000Z,Added by Kinjal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c279b,SNC-Lavalin,Junior Software Tester,Applied,2025-04-01T00:00:00.000Z,Added by Kinjal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c279c,Canada Post,Network Analyst,Applied,2025-03-06T00:00:00.000Z,Added by Kinjal,2025-04-17T09:13:41.916Z,0
+6800c645b9434e21ac5c279d,Canadian Tire Digital,Front-End Web Developer,Offer,2025-01-02T00:00:00.000Z,Added by Kinjal,2025-04-17T09:13:41.916Z,0
+6800c86731e210bc1b9875a2,Tata Consultancy Services,Jr. Software Developer,Applied,2025-01-29T00:00:00.000Z,Thanks for application!,2025-04-17T09:22:47.356Z,0
+6800ccc562f6aafaf03d4066,Accenture ,Data Scientist,Applied,2025-03-28T00:00:00.000Z,Thanks for applying!,2025-04-17T09:41:25.254Z,0
+6800cf14d5e306748c74ff02,Wealthsimple,Junior DevOps Engineer,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.698Z,0
+6800cf14d5e306748c74ff03,PointClickCare,React Frontend Developer,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff04,Ceridian Canada,Software QA Analyst,Interview,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff05,Nuvei,Full Stack Engineer,Offer,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff06,Thomson Reuters,Node.js Developer,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff07,Think Research,Junior Software Tester,Rejected,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff08,Wattpad,Junior Frontend Developer,Interview,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff09,Flipp,Data Integration Engineer,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff0a,Klick Health,CMS Developer,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff0b,SkipTheDishes,React Native Developer,Offer,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff0c,FreshBooks,Junior Mobile Developer,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff0d,Neo Financial,API Developer,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff0e,1Password,Cloud Engineer Intern,Interview,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff0f,Lynk Global,DevSecOps Analyst,Applied,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cf14d5e306748c74ff10,Bench Accounting,Junior Backend Developer,Rejected,2025-04-17T09:51:16.693Z,Added by Hitesh,2025-04-17T09:51:16.699Z,0
+6800cfcfe35db60db58a4d9a,Myant,IoT Software Developer,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.477Z,0
+6800cfcfe35db60db58a4d9b,Ecobee,Python Developer,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.478Z,0
+6800cfcfe35db60db58a4d9c,League,Software Developer in Test,Interview,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.478Z,0
+6800cfcfe35db60db58a4d9d,Borrowell,Junior UI Developer,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4d9e,Top Hat,Platform Engineer,Offer,2025-04-17T00:00:00.000Z,Thank for proceeding with us!,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4d9f,Geotab,Software Support Developer,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da0,Xanadu,Quantum Software Intern,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da1,Lightspeed HQ,Frontend Angular Developer,Interview,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da2,Zensurance,Infrastructure Engineer,Rejected,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da3,Fiix Software,Software Integration Tester,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da4,MindBeacon,React JS Intern,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da5,WealthBar,Node/Express Developer,Offer,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da6,Drop Technologies,AI Assistant Engineer,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da7,Ada Support,Machine Learning Intern,Interview,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800cfcfe35db60db58a4da8,ApplyBoard,Technical Support Developer,Applied,2025-04-17T09:54:23.473Z,Added by Kinjal,2025-04-17T09:54:23.479Z,0
+6800d2b93da36217cc61999e,BMO Bank of Montreal,Data Researcher,Rejected,2025-03-28T00:00:00.000Z,"Unfortunately, we're moving forward with other candidate.",2025-04-17T10:06:49.466Z,0
+6800d4398a1043ef445d72d7,Scotiabank,Data Scientist,Rejected,2025-02-14T00:00:00.000Z,Thanks for applying!,2025-04-17T10:13:13.324Z,0
